@@ -220,6 +220,117 @@ header nav ul li a:hover, header nav ul li a.ativo{
 	text-align: center;
 	font-family: "aller";
 }
+
+
+/* CONTEUDO INTERNA */
+/* CONTEUDO INTERNA */
+.conteudo-interna{
+	margin-top: 50px;
+	padding: 50px 0;
+}
+.conteudo-interna .topo h2{
+	font-size: 42px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	font-family: "aller_bold";
+	margin-top: 75px;
+	position: relative;
+	margin-bottom: 100px;
+}
+.conteudo-interna .topo h2::before{
+	content: "";
+	width: 100%;
+	max-width: 197px;
+	height: 201px;
+	background: url("../img/logo-internas.png") no-repeat center;
+	background-size: 100%;
+	margin-top: -75px;
+	position: absolute;
+	left: 0;
+
+}
+.conteudo-interna .topo h2 span{
+	height: 6px;
+	width: 13px;
+	background-color: #fff;
+	display: inline-block;
+	margin-bottom: 12px;
+}
+
+/* EVENTO */
+/* EVENTO */
+.conteudo-interna.interna-evento{
+	background-color: #ffd91b;
+}
+.conteudo-interna.interna-evento .topo h2{
+	color: #861c22;
+}
+.conteudo-interna.interna-evento .topo h2 span{
+	background-color: #861c22;
+}
+.conteudo-interna.interna-evento .conteudo-editor{
+	max-height: 300px;
+	overflow: auto;
+	width: 100%!important;
+}
+.conteudo-interna.interna-evento .conteudo-editor h2,.conteudo-interna.interna-evento .conteudo-editor p,.conteudo-interna.interna-evento .conteudo-editor a{
+	color: #861c22;
+}
+.conteudo-interna.interna-evento .jspDrag{
+	border-radius: 8px;
+	background-color: #ffd91b;
+}
+.conteudo-interna.interna-evento .jspTrack{
+	background-color: #ccae16;	
+	padding: 3px 3px 10px 3px;
+}
+
+/*RESET SCROLLBAR*/
+.jspContainer{
+	width: 100%!important;
+}
+.jspVerticalBar{
+	border-radius: 8px;
+	overflow: hidden;
+}
+.jspPane{
+	width: 95%!important;
+}
+/*CONTEUDO EDITOR*/
+.conteudo-editor h2{
+	font-family: "aller_bold";
+	text-transform: uppercase;
+	display: block;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.conteudo-editor p{
+	font-family: "aller";
+	display: block;
+	font-size: 16px;
+	margin-top: 10px;
+}
+.conteudo-editor span{
+	font-family: "aller";
+	font-size: 16px;
+}
+.conteudo-editor b{
+	font-family: "aller_bold";
+	font-size: 16px;
+}
+.conteudo-editor strong{
+	font-family: "aller_bold";
+	font-size: 16px;
+}
+.conteudo-editor a{
+	font-family: "aller_bold";
+	text-decoration: underline;
+	font-size: 16px;
+	color: #fff;
+}
+
+
 /* RESPONSIVO 1200PX */
 @media screen and (max-width: 1200px){
 	header{
@@ -266,11 +377,22 @@ header nav ul li a:hover, header nav ul li a.ativo{
 	}
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 800px){
 	.banner-home h2{
 		font-size: 24px;
 	}
 	.banner-home p{
 		font-size: 16px;
+	}
+	.conteudo-interna .topo h2::before{
+		position: relative;
+		margin: 0 auto;
+		display: block;
+	}
+	.conteudo-interna .topo h2{
+		margin: 0 auto;
+	}
+	.conteudo-editor{
+		margin-top: 20px;
 	}
 }

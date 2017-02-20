@@ -1,8 +1,8 @@
 <?
 	switch ($_GET["referencia"])
 	{
-		case "":
-			include("interna_.php");
+		case "evento":
+			include("interna_evento.php");
 		break;
 	}
 ?>

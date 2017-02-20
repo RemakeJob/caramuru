@@ -6,6 +6,7 @@ $(document).ready(function(){
     });
     var height = $(window).height() - 50;
 
+    $('.conteudo-interna').css('min-height',height);
     $('.item-banner').css('height',height);
     $('.banner-home h1.logo').css('height',height);
     $('.banner-home .texto-banner').css('height',height);
@@ -16,6 +17,7 @@ $(document).ready(function(){
 $(window).resize(function() {
     var height = $(window).height() - 50;
 
+    $('.conteudo-interna').css('min-height',height);
     $('.item-banner').css('height',height);
     $('.banner-home h1.logo').css('height',height);	
     $('.banner-home .texto-banner').css('height',height);
@@ -31,4 +33,12 @@ $(function() {
           if($(this).attr("href") == pgurl || $(this).attr("href") == '' )
           $(this).addClass("ativo");
      })
+});
+
+$(function()
+{
+  $('.conteudo-editor').jScrollPane({
+      verticalDragMinHeight: 35,
+      verticalDragMaxHeight: 35,
+  });
 });

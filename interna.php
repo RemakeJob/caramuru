@@ -9,6 +9,7 @@
 	<link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon"/>
 	
 	<!-- ESTILOS CSS -->
+    <link type="text/css" rel="stylesheet" href="./css/jquery.jscrollpane.css" />
     <link type="text/css" rel="stylesheet" href="./css/estilos.css?v2" />
 
     <!-- TITLE SITE -->
@@ -16,6 +17,8 @@
 	
 	<!-- JQUERY -->
 	<script src="./js/jquery-1.12.3.min.js"></script>
+	<script src="./js/jquery.mousewheel.js"></script>
+	<script src="./js/jquery.jscrollpane.min.js"></script>
 	
 	<?
 		include("config.php");
