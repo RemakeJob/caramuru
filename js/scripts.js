@@ -26,7 +26,7 @@ $(window).resize(function() {
 });
 
 $(window).load(function(){
-    $('.loader').fadeOut(1000);
+    $('.loader').fadeOut(2000);
 });
 
 // FUNCTION PARA SETAR CLASSE ATIVA NA PAGINA ATUAL
