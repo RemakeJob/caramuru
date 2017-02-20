@@ -1,4 +1,4 @@
-# Caramaru - Projeto Remake
+# Caramuru - Projeto Remake
 Remake Project
 Para alterar algum plugin que está sendo usado, altere no config.php
 
