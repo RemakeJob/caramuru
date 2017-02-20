@@ -1,0 +1,276 @@
+@font-face {
+	font-family: 'aller';
+	src: url('./fonts/Aller.eot');
+	src: url('./fonts/Aller.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/Aller.woff2') format('woff2'),
+		url('./fonts/Aller.woff') format('woff'),
+		url('./fonts/Aller.ttf') format('truetype'),
+		url('./fonts/Aller.svg#Aller') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'aller_bold';
+	src: url('./fonts/Aller-Bold.eot');
+	src: url('./fonts/Aller-Bold.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/Aller-Bold.woff2') format('woff2'),
+		url('./fonts/Aller-Bold.woff') format('woff'),
+		url('./fonts/Aller-Bold.ttf') format('truetype'),
+		url('./fonts/Aller-Bold.svg#Aller-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+/* CLEAR */
+
+header a.menu-hamburguer{
+	background:url("../img/menu-open.svg") no-repeat center;
+	width: 32px;
+	height: 32px;
+	display: none;
+	float: right;
+	background-size: 100%;
+	text-indent: -9999px;
+	position: absolute;
+	z-index: 99999;
+	right: 20px;
+	top: 10px;
+}
+header a.menu-hamburguer.close{
+	background:url("../img/menu-close.svg") no-repeat center;
+	background-size: 100%;
+}
+
+.vbox-close{
+	background-color: transparent;
+}
+html, body {
+	background-color:#fff;
+	margin:0;
+	padding:0;
+	overflow-x:hidden;
+}
+div.clear {
+    clear: both;
+    display: table;
+}
+*{
+	outline: 0 none;
+	box-sizing:border-box;
+}
+p{
+	margin:0;
+}
+form{
+	margin: 0;
+}
+b{
+	font-weight: 100;
+}
+p, div, label, input, textarea, select{
+	color: #fff;
+	font-family: "";
+}
+input{
+    -webkit-appearance:none;  
+    -webkit-border-radius:0px;
+}
+h1, h2, h3 {
+	margin:0;
+	padding:0;
+	font-weight: 100;
+	color: #fff;
+	font-family: "";
+}
+.container{
+	max-width:860px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 20px;
+	position: relative;
+}
+br{
+	line-height: 10px;
+}
+div{
+	text-align:left;
+}
+img{
+	border: 0 none;
+}
+a{
+	text-decoration: none;
+	font-family: "";
+}
+address{
+	text-decoration: none;
+	font-family: "";
+}
+a:hover{
+	text-decoration: none;
+	
+}
+input, select, textarea{
+	background: rgba(0,0,0,0) none repeat scroll 0 0;
+	border: 0 none;
+}
+ul{
+	list-style: outside none none;
+	padding: 0;
+	margin: 0;
+}
+hr{
+	border: 0;
+}
+
+
+header{
+	background-color: #000;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+	height: 50px;
+}
+header h1.logo-header{
+	background: url("../img/logo-header.png") no-repeat center;
+	height: 30px;
+	width: 100%;
+	max-width: 95px;
+	background-size: 100%;
+	text-indent: -9999px;
+	float: left;
+	display: block;
+	margin-top: 10px;
+}
+header nav{
+	float: right;
+	overflow: hidden;
+	margin-top: 15px;
+}
+header nav ul{
+	overflow: hidden;
+	display: block;
+}
+header nav ul li{
+	display: inline-block;
+	margin-right: 40px;
+}
+header nav ul li:last-child{
+	margin-right: 0;
+}
+header nav ul li a{
+	font-family: "aller";
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #fff;
+	transition: all 0.2s linear 0s;
+}
+header nav ul li a:hover, header nav ul li a.ativo{
+	color: #faba0a;
+}
+.banner-home{
+	margin-top: 50px;
+}
+.banner-home h1.logo{
+	background: url("../img/logo-banner.png") no-repeat center;
+	width: 100%;
+	max-width: 571px;
+	background-size: 90%;
+	margin: 0 auto;
+}
+.banner-home .texto-banner{
+  	width: 100%;
+  	position: absolute;
+  	top: 0;
+  	margin: 0; 
+  	padding: 0;
+  	left: 0;
+  	right: 0;
+  	max-height: 1080px;
+  	z-index: 14;
+}
+.banner-home .content-texto{
+	width: 100%;
+	display: table;
+	vertical-align: middle;
+	text-align: center;
+	max-height: 1080px;
+}
+
+.banner-home .text-inner{
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding: 0 30px;
+	max-height: 1080px;
+}
+.banner-home h2{
+	font-size: 32px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "aller_bold";
+}
+.banner-home p{
+	font-size: 22px;
+	text-align: center;
+	font-family: "aller";
+}
+/* RESPONSIVO 1200PX */
+@media screen and (max-width: 1200px){
+	header{
+		height: 50px;
+		position: fixed;
+		left: 0;
+		right: 0;
+		z-index: 100;
+	}
+	header a.menu-hamburguer{
+		display: block;
+	}
+	header nav{
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		margin: 0;
+		bottom: 0;
+		background-color: #fff;
+		height: 0;
+		transition: all 0.2s linear 0s;
+		overflow: auto;
+	}
+	header nav.ativo{
+		height: 100%;
+	}
+	header nav ul{
+		width: 100%;
+		overflow: hidden;
+		text-align: center;
+		display: block;
+	}
+	header nav ul li{
+		width: 100%;
+		overflow: hidden;
+		text-align: center;
+		display: block;
+		float: none;
+		margin: 20px auto 0;
+	}
+	header nav ul li a{
+		color: #000;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.banner-home h2{
+		font-size: 24px;
+	}
+	.banner-home p{
+		font-size: 16px;
+	}
+}
