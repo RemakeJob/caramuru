@@ -25,6 +25,10 @@ $(window).resize(function() {
     $('.banner-home .text-inner').css('height',height);
 });
 
+$(window).load(function(){
+    $('.loader').fadeOut(1000);
+});
+
 // FUNCTION PARA SETAR CLASSE ATIVA NA PAGINA ATUAL
 $(function() {
      var pgurl = window.location.href.substr(window.location.href

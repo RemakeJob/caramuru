@@ -124,7 +124,22 @@ hr{
 	border: 0;
 }
 
-
+.loader{
+	position: fixed;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #861c22;
+	z-index: 999;
+}
+.loader .livicon-evo{
+	position: absolute;
+	left: 50%;
+	margin-left: -50px;
+	top: 50%;
+	margin-top: -50px;
+}
 header{
 	background-color: #000;
 	width: 100%;
