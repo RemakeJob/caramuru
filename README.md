@@ -21,10 +21,10 @@ A interna da programação está funcional, com scroll na table, e ajustando ao 
 A interna de blog está funcional, com página interna setando o link no nav ativo do blog interno, com link no titulo para voltar à página anterior.
 
 #Contato funcionando
-A interna de contato está funcional, com formulário validado. *Campo de textareag adicionado*
+A interna de contato está funcional, com formulário validado. *Campo de textarea adicionado*
 
-##ISSUE 1
+###ISSUE 1
 A página de Pós evento não existe
 
-##ISSUE 2
+###ISSUE 2
 ~~A validação de formulário não está funcionando em todos os campos, apenas no de telefone~~ **Resolvido**
