@@ -2,7 +2,8 @@
 	echo "<meta name=\"theme-color\" content=\"#faba0a\">";
 	echo "<meta name=\"msapplication-navbutton-color\" content=\"#faba0a\">";
 	echo "<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"#faba0a\">";
-
+	echo "<link rel=\"stylesheet\" href=\"./css/stacktable.css\">";
+	echo "<script src=\"./js/stacktable.js\"></script>";
 	// RESPONSIVO = 0; LAYOUT ADAPTIVO
 	// RESPONSIVO = 1; LAYOUT RESPONSIVO
 	$responsivo = 1;
@@ -66,8 +67,8 @@
 
 	}
 	else{
-	  	echo "<script type=\"text/javascript\" src=\"./js/jquery.maskedinput-1.3.1.min.js\"></script> \n";
 	  	echo "<script type=\"text/javascript\" src=\"./js/jquery.validate.min.js\"></script> \n";
+		echo "<script src=\"./js/jquery.mask.js\"></script>";
 	}
 
 ?>
