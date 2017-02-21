@@ -8,13 +8,16 @@
 		<form action="" method="post" id="form-contato">
 		<ul>
 			<li>
-				<input type="text" placeholder="Nome" aria-required="true" data-rule-required="true" data-msg-required="O preenchimento deste campo é obrigatório.">
+				<input type="text" placeholder="Nome" name="f_nome" aria-required="true" data-rule-required="true" data-msg-required="O preenchimento deste campo é obrigatório.">
 			</li>
 			<li>
-				<input type="text" placeholder="Telefone" class="input-telefone" aria-required="true" data-rule-required="true" data-msg-required="O preenchimento deste campo é obrigatório.">
+				<input type="text" placeholder="Telefone" name="f_telefone" class="input-telefone" aria-required="true" data-rule-required="true" data-msg-required="O preenchimento deste campo é obrigatório.">
 			</li>
 			<li>
-				<input type="text" placeholder="E-mail" data-msg-required="O preenchimento deste campo é obrigatório." data-msg-email="Informe um endereço de e-mail válido." data-rule-required="true" data-rule-email="true" aria-required="true">
+				<input type="text" placeholder="E-mail" name="f_email" data-msg-required="O preenchimento deste campo é obrigatório." data-msg-email="Informe um endereço de e-mail válido." data-rule-required="true" data-rule-email="true" aria-required="true">
+			</li>
+			<li>
+				<textarea placeholder="Digite sua mensagem" name="f_mensagem" cols="30" rows="10" aria-required="true" data-rule-required="true" data-msg-required="O preenchimento deste campo é obrigatório."></textarea>
 			</li>
 		</ul>
 			<input type="submit" value="Enviar">

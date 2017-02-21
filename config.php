@@ -34,7 +34,7 @@
 
 	// LIVICONS = 0; SEM LIVICONS
 	// LIVICONS = 1; COM LIVICONS
-	$livicons = 1;
+	$livicons = 0;
 	if($livicons == 0){
 
 	}

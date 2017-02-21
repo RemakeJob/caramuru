@@ -17,13 +17,17 @@
 			<form action="" method="post" id="form-familia">
 			<ul>
 			<li>
-				<input type="text" placeholder="Nome" aria-required="true" data-rule-required="true" data-msg-required="O preenchimento deste campo é obrigatório.">
+				<input type="text" placeholder="Nome" aria-required="true" name="f_nome" data-rule-required="true" data-msg-required="O preenchimento deste campo é obrigatório.">
 			</li>
 			<li>
-				<input type="text" placeholder="Telefone" class="input-telefone" aria-required="true" data-rule-required="true" data-msg-required="O preenchimento deste campo é obrigatório.">
+				<input type="text" placeholder="Telefone" name="f_telefone" class="input-telefone" aria-required="true" data-rule-required="true" data-msg-required="O preenchimento deste campo é obrigatório.">
 			</li>
 			<li>
-				<input type="text" placeholder="Cargo" aria-required="true" data-rule-required="true" data-msg-required="O preenchimento deste campo é obrigatório.">
+				<input type="text" name="f_cargo" placeholder="Cargo" aria-required="true" data-rule-required="true" data-msg-required="O preenchimento deste campo é obrigatório.">
+			</li>
+			<li>
+				<label for="file-upload" class="label-upload">Escolha um arquivo</label>
+				<input type="file" id="file-upload" name="f_arquivo" aria-required="true" data-rule-required="true" data-msg-required="O preenchimento deste campo é obrigatório.">
 			</li>
 			</ul>
 				<input type="submit" value="Enviar">

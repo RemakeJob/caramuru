@@ -12,7 +12,7 @@ A home está funcional, com logos e textos, usando Owl Carousel.
 A interna de eventos está funcional, com scroll no conteudo editor e active class na página (VIA JS).
 
 #Fotos da Família
-Funcionando com formatação de telefone.
+Funcionando com formatação de telefone. *Campo de file adicionado*
 
 #Programação funcionando
 A interna da programação está funcional, com scroll na table, e ajustando ao responsivo.
@@ -20,8 +20,11 @@ A interna da programação está funcional, com scroll na table, e ajustando ao 
 #Blog funcionando
 A interna de blog está funcional, com página interna setando o link no nav ativo do blog interno, com link no titulo para voltar à página anterior.
 
+#Contato funcionando
+A interna de contato está funcional, com formulário validado. *Campo de textarea adicionado*
+
 #ISSUE 1
 A página de Pós evento não existe
 
 #ISSUE 2
-A validação de formulário não está funcionando em todos os campos, apenas no de telefone
+~~A validação de formulário não está funcionando em todos os campos, apenas no de telefone~~ **Resolvido**
