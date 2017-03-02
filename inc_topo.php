@@ -8,7 +8,7 @@
 		<nav>
 			<ul>
 				<li>
-					<a href="interna.php?referencia=evento">Eventos</a>
+					<a href="interna.php?referencia=evento">Evento</a>
 				</li>
 				<li>
 					<a href="interna.php?referencia=programacao">Programação</a>
